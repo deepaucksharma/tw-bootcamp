@@ -54,8 +54,8 @@ public class ProbabilityTest {
     }
 
     @Test
-    public void orTest()
+    public void testOrOperation()
     {
-        Assert.assertThat(new Probability(0.3).or(new Probability(0.3)), is(new Probability(0.6)));
+        Assert.assertThat(new Probability(0.3).or(new Probability(0.3)), is(new Probability(0.51)));
     }
 }

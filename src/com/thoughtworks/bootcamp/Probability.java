@@ -30,7 +30,7 @@ public class Probability {
     }
 
     public Probability or(Probability that) {
-        return new Probability(this.round(this.chance + that.chance));
+        return new Probability(this.round((this.chance + that.chance) - (this.and(that).chance)));
     }
 
     @Override
