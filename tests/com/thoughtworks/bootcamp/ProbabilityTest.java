@@ -59,5 +59,5 @@ public class ProbabilityTest {
         Assert.assertThat(new Probability(0.3).or(new Probability(0.3)), is(new Probability(0.51)));
     }
 
-    
+
 }
