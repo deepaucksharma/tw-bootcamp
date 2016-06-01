@@ -1,10 +1,7 @@
 package tw.chemicalFactory;
 
-import com.sun.istack.internal.FinalArrayList;
-
 import java.util.ArrayList;
 
-import static java.util.Arrays.asList;
 import static tw.chemicalFactory.ProcessStage.*;
 
 /**
@@ -13,58 +10,59 @@ import static tw.chemicalFactory.ProcessStage.*;
 public class ChemicalFactory {
 
     private final ArrayList<ChemicalInfo> chemicalInfos;
-    private final ProcessStage[] pipeline = {Grinder, Mixer, Reactor, Cooler, Packager};
+    private ProcessStage[] pipeline = {Grinder, Mixer, Reactor, Cooler, Packager};
 
     public ChemicalFactory(ArrayList<ChemicalInfo> chemicalInfos) {
-
         this.chemicalInfos = chemicalInfos;
     }
 
-    public int processAllChemicals(ArrayList<String> inputChemicalNames) {
-
-        ArrayList<ChemicalProcessStack> inputChemicalInfo = getInfoForInputElements(inputChemicalNames);
+    public int getProcessTime(ArrayList<String> inputChemicalNames) {
+        ArrayList<ChemicalProcessStack> processStacks = getProcessStacks(inputChemicalNames);
 
         int hours = 0;
 
         while (true) {
-            ArrayList<String> processedChemicals  = new ArrayList<>();;
+            ArrayList<ChemicalProcessStack> processedStacks = new ArrayList<>();
 
-            for(ProcessStage stage : pipeline){
-                String chemicalProcessed = ProcessAllChemicalsAt(inputChemicalInfo, stage, processedChemicals);
-                if(chemicalProcessed !=  null) processedChemicals.add(chemicalProcessed);
+            for (ProcessStage stage : pipeline) {
+                ChemicalProcessStack processedStack = ProcessAllChemicalsAt(processStacks, stage, processedStacks);
+
+                if (processedStack != null) processedStacks.add(processedStack);
             }
-
-            if(processedChemicals.size() == 0)break;
-
+            if (processedStacks.size() == 0) break;
             hours++;
         }
         return hours;
     }
 
-    private String ProcessAllChemicalsAt(ArrayList<ChemicalProcessStack> inputChemicalInfo, ProcessStage currentMachine, ArrayList<String> processedChemicals) {
-        String chemicalName = null;
+    private ChemicalProcessStack ProcessAllChemicalsAt(ArrayList<ChemicalProcessStack> inputChemicalInfo,
+                                                       ProcessStage currentMachine,
+                                                       ArrayList<ChemicalProcessStack> processedChemicals) {
+        ChemicalProcessStack chemicalProcessed = null;
 
-        for (ChemicalProcessStack chemicalStack : inputChemicalInfo) {
-            if(!processedChemicals.contains(chemicalStack.getChemicalName())
-                    && chemicalStack.process(currentMachine)){
+        for (ChemicalProcessStack chemicalStack : inputChemicalInfo)
+            if (!processedChemicals.contains(chemicalStack) && chemicalStack.process(currentMachine)) {
 
-                chemicalName = chemicalStack.getChemicalName();
-                if(currentMachine != Cooler) break;}
-        }
-        return chemicalName;
+                chemicalProcessed = chemicalStack;
+                if (currentMachine != Cooler) break;
+            }
+
+        return chemicalProcessed;
     }
 
-    private  ArrayList<ChemicalProcessStack> getInfoForInputElements(ArrayList<String> inputChemicalNames) {
+    private ArrayList<ChemicalProcessStack> getProcessStacks(ArrayList<String> inputChemicalNames) {
         ArrayList<ChemicalProcessStack> inputChemicalInfos = new ArrayList<>();
 
         for (String chemical : inputChemicalNames)
-            for (ChemicalInfo chemicalInfo : chemicalInfos){
-              if(chemical.equals(chemicalInfo.getChemicalName())){
-                  inputChemicalInfos.add(new ChemicalProcessStack(chemicalInfo));
-              }
-        }
+            for (ChemicalInfo chemicalInfo : chemicalInfos)
+                if (chemical.equals(chemicalInfo.getChemicalName()))
+                    inputChemicalInfos.add(new ChemicalProcessStack(chemicalInfo));
 
         return inputChemicalInfos;
+    }
+
+    public void setPipeline(ProcessStage[] pipeline) {
+        this.pipeline = pipeline;
     }
 }
 

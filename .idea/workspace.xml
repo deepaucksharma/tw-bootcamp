@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8184ac47-4196-42fe-b3cd-99430e7f6ba8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tw/chemicalFactory/ChemicalFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tw/chemicalFactory/ChemicalInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tw/chemicalFactory/ChemicalProcessStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tw/chemicalFactory/ProcessStage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/tw/chemicalFactory/ChemicalFactoryTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tw/chemicalFactory/ChemicalFactory.java" afterPath="$PROJECT_DIR$/src/tw/chemicalFactory/ChemicalFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/tw/chemicalFactory/ChemicalFactoryTests.java" afterPath="$PROJECT_DIR$/tests/tw/chemicalFactory/ChemicalFactoryTests.java" />
     </list>
     <ignored path="Bootcamp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,37 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProbabilityTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/com/thoughtworks/bootcamp/ProbabilityTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-              <folding>
-                <element signature="docComment;class#ProbabilityTest#0" expanded="false" />
-                <element signature="method#testEquality#0;class#ProbabilityTest#0" expanded="false" />
-                <element signature="method#testDoubleNegateOperation#0;class#ProbabilityTest#0" expanded="false" />
-                <element signature="method#testAndOperation#0;class#ProbabilityTest#0" expanded="false" />
-                <element signature="method#testOrOperation#0;class#ProbabilityTest#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MeasurementType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/bootcamp/mesurement/MeasurementType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ChemicalFactoryTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/tw/chemicalFactory/ChemicalFactoryTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+              <caret line="136" column="54" selection-start-line="136" selection-start-column="47" selection-end-line="136" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,72 +42,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChemicalInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tw/chemicalFactory/ChemicalInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChemicalProcessStack.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ChemicalProcessStack.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tw/chemicalFactory/ChemicalProcessStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="e#1123#1124#0" expanded="true" />
-                <element signature="e#1158#1159#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProcessStage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tw/chemicalFactory/ProcessStage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.19354838">
+              <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChemicalFactory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChemicalFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tw/chemicalFactory/ChemicalFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5456389">
-              <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MeasurementTypeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/com/thoughtworks/bootcamp/mesurement/MeasurementTypeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#testQuantityEqual#0;class#MeasurementTypeTest#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -201,8 +123,8 @@
         <option value="$PROJECT_DIR$/src/tw/chemicalFactory/ProcessStage.java" />
         <option value="$PROJECT_DIR$/src/tw/chemicalFactory/ChemicalProcessFlow.java" />
         <option value="$PROJECT_DIR$/src/tw/chemicalFactory/ChemicalInfo.java" />
-        <option value="$PROJECT_DIR$/tests/tw/chemicalFactory/ChemicalFactoryTests.java" />
         <option value="$PROJECT_DIR$/src/tw/chemicalFactory/ChemicalProcessStack.java" />
+        <option value="$PROJECT_DIR$/tests/tw/chemicalFactory/ChemicalFactoryTests.java" />
         <option value="$PROJECT_DIR$/src/tw/chemicalFactory/ChemicalFactory.java" />
       </list>
     </option>
@@ -220,10 +142,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="68" />
-    <option name="y" value="29" />
-    <option name="width" value="1849" />
-    <option name="height" value="1027" />
+    <option name="x" value="69" />
+    <option name="y" value="24" />
+    <option name="width" value="1851" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -385,8 +307,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ChemicalFactoryTests.testReturnsTenForChemXChemX">
-    <configuration default="false" name="ChemicalFactoryTests.testChemicalFactoryCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ChemicalFactoryTests">
+    <configuration default="false" name="ChemicalFactoryTests.testReturnsTenForChemYYYXZWithCustomPipeline" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tw.chemicalFactory.*" />
@@ -398,7 +320,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.chemicalFactory" />
       <option name="MAIN_CLASS_NAME" value="tw.chemicalFactory.ChemicalFactoryTests" />
-      <option name="METHOD_NAME" value="testChemicalFactoryCreated" />
+      <option name="METHOD_NAME" value="testReturnsTenForChemYYYXZWithCustomPipeline" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -412,7 +334,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ChemicalFactoryTests.testReturnsZeroForAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ChemicalFactoryTests.testReturnsTenForChemXYWithCustomPipeline" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tw.chemicalFactory.*" />
@@ -424,59 +346,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.chemicalFactory" />
       <option name="MAIN_CLASS_NAME" value="tw.chemicalFactory.ChemicalFactoryTests" />
-      <option name="METHOD_NAME" value="testReturnsZeroForAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ChemicalFactoryTests.testReturnsTenForChemX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tw.chemicalFactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="com.thoughtworks.bootcamp" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tw.chemicalFactory" />
-      <option name="MAIN_CLASS_NAME" value="tw.chemicalFactory.ChemicalFactoryTests" />
-      <option name="METHOD_NAME" value="testReturnsTenForChemX" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ChemicalFactoryTests.testReturnsTenForChemXChemX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tw.chemicalFactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="com.thoughtworks.bootcamp" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tw.chemicalFactory" />
-      <option name="MAIN_CLASS_NAME" value="tw.chemicalFactory.ChemicalFactoryTests" />
-      <option name="METHOD_NAME" value="testReturnsTenForChemXChemX" />
+      <option name="METHOD_NAME" value="testReturnsTenForChemXYWithCustomPipeline" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -504,6 +374,58 @@
       <option name="MAIN_CLASS_NAME" value="tw.chemicalFactory.ChemicalFactoryTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ChemicalFactoryTests.testReturnsTenForChemYYYXZ" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tw.chemicalFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="com.thoughtworks.bootcamp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.chemicalFactory" />
+      <option name="MAIN_CLASS_NAME" value="tw.chemicalFactory.ChemicalFactoryTests" />
+      <option name="METHOD_NAME" value="testReturnsTenForChemYYYXZ" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ChemicalFactoryTests.testChemicalFactoryCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tw.chemicalFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="com.thoughtworks.bootcamp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.chemicalFactory" />
+      <option name="MAIN_CLASS_NAME" value="tw.chemicalFactory.ChemicalFactoryTests" />
+      <option name="METHOD_NAME" value="testChemicalFactoryCreated" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -805,19 +727,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests.testChemicalFactoryCreated" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests.testReturnsZeroForAll" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests.testReturnsTenForChemX" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests.testReturnsTenForChemXChemX" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests.testReturnsTenForChemYYYXZWithCustomPipeline" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests.testReturnsTenForChemXYWithCustomPipeline" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests.testReturnsTenForChemYYYXZ" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests.testChemicalFactoryCreated" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests.testReturnsTenForChemXChemX" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests.testReturnsZeroForAll" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests.testReturnsTenForChemX" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests.testChemicalFactoryCreated" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests.testChemicalFactoryCreated" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests.testReturnsTenForChemXYWithCustomPipeline" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests.testReturnsTenForChemYYYXZ" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ChemicalFactoryTests.testReturnsTenForChemYYYXZWithCustomPipeline" />
       </list>
     </recent_temporary>
   </component>
@@ -845,106 +767,106 @@
       <workItem from="1464630418531" duration="99000" />
       <workItem from="1464630528265" duration="1439000" />
       <workItem from="1464667254350" duration="1888000" />
-      <workItem from="1464674170640" duration="23582000" />
+      <workItem from="1464674170640" duration="29335000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ChemicalFactoryTests - 2016.06.01 at 15h 52m 54s.xml">
+    <history-entry file="ChemicalFactoryTests - 2016.06.01 at 16h 30m 41s.xml">
       <configuration name="ChemicalFactoryTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChemicalFactoryTests_testReturnsTenForChemX - 2016.06.01 at 15h 45m 23s.xml">
-      <configuration name="ChemicalFactoryTests.testReturnsTenForChemX" configurationId="JUnit" />
+    <history-entry file="ChemicalFactoryTests - 2016.06.01 at 16h 31m 01s.xml">
+      <configuration name="ChemicalFactoryTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChemicalFactoryTests_testReturnsTenForChemX - 2016.06.01 at 15h 46m 24s.xml">
-      <configuration name="ChemicalFactoryTests.testReturnsTenForChemX" configurationId="JUnit" />
+    <history-entry file="ChemicalFactoryTests - 2016.06.01 at 16h 31m 36s.xml">
+      <configuration name="ChemicalFactoryTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChemicalFactoryTests_testReturnsTenForChemX - 2016.06.01 at 15h 46m 43s.xml">
-      <configuration name="ChemicalFactoryTests.testReturnsTenForChemX" configurationId="JUnit" />
+    <history-entry file="ChemicalFactoryTests - 2016.06.01 at 16h 56m 30s.xml">
+      <configuration name="ChemicalFactoryTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChemicalFactoryTests_testReturnsTenForChemX - 2016.06.01 at 15h 48m 04s.xml">
-      <configuration name="ChemicalFactoryTests.testReturnsTenForChemX" configurationId="JUnit" />
+    <history-entry file="ChemicalFactoryTests_testChemicalFactoryCreated - 2016.06.01 at 16h 56m 25s.xml">
+      <configuration name="ChemicalFactoryTests.testChemicalFactoryCreated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChemicalFactoryTests_testReturnsTenForChemX - 2016.06.01 at 15h 51m 17s.xml">
-      <configuration name="ChemicalFactoryTests.testReturnsTenForChemX" configurationId="JUnit" />
+    <history-entry file="ChemicalFactoryTests_testReturnsTenForChemXYWithCustomPipeline - 2016.06.01 at 16h 30m 30s.xml">
+      <configuration name="ChemicalFactoryTests.testReturnsTenForChemXYWithCustomPipeline" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChemicalFactoryTests_testReturnsTenForChemX - 2016.06.01 at 15h 52m 36s.xml">
-      <configuration name="ChemicalFactoryTests.testReturnsTenForChemX" configurationId="JUnit" />
+    <history-entry file="ChemicalFactoryTests_testReturnsTenForChemXYWithCustomPipeline - 2016.06.01 at 16h 30m 38s.xml">
+      <configuration name="ChemicalFactoryTests.testReturnsTenForChemXYWithCustomPipeline" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChemicalFactoryTests_testReturnsTenForChemXChemX - 2016.06.01 at 15h 57m 45s.xml">
-      <configuration name="ChemicalFactoryTests.testReturnsTenForChemXChemX" configurationId="JUnit" />
+    <history-entry file="ChemicalFactoryTests_testReturnsTenForChemXYWithCustomPipeline - 2016.06.01 at 16h 56m 18s.xml">
+      <configuration name="ChemicalFactoryTests.testReturnsTenForChemXYWithCustomPipeline" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChemicalFactoryTests_testReturnsTenForChemXChemX - 2016.06.01 at 15h 59m 52s.xml">
-      <configuration name="ChemicalFactoryTests.testReturnsTenForChemXChemX" configurationId="JUnit" />
+    <history-entry file="ChemicalFactoryTests_testReturnsTenForChemYYYXZ - 2016.06.01 at 16h 52m 17s.xml">
+      <configuration name="ChemicalFactoryTests.testReturnsTenForChemYYYXZ" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChemicalFactoryTests_testReturnsZeroForAll - 2016.06.01 at 15h 52m 46s.xml">
-      <configuration name="ChemicalFactoryTests.testReturnsZeroForAll" configurationId="JUnit" />
+    <history-entry file="ChemicalFactoryTests_testReturnsTenForChemYYYXZWithCustomPipeline - 2016.06.01 at 16h 29m 35s.xml">
+      <configuration name="ChemicalFactoryTests.testReturnsTenForChemYYYXZWithCustomPipeline" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35932000" />
+    <option name="totallyTimeSpent" value="41685000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="29" width="1849" height="1027" extended-state="0" />
+    <frame x="69" y="24" width="1851" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3255814" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3532669" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42028984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2684415" sideWeight="0.49315068" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0890625" sideWeight="0.49315068" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810867" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2684415" sideWeight="0.5068493" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39645627" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39645627" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39916405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39645627" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3260188" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3255814" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39916405" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4892638" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28587258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09785408" sideWeight="0.49315068" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810867" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2684415" sideWeight="0.5068493" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -968,22 +890,15 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tw/chemicalFactory/ChemicalFactory.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tw/chemicalFactory/ChemicalFactory.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="13" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="inputChemicalInfo.get(0).processStack" />
+        <watch expression="inputChemicalInfo.get(1).processStack" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1177,17 +1092,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="method#testQuantityEqual#0;class#MeasurementTypeTest#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tw/chemicalFactory/ProcessStage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,6 +1119,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/Arrays.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.37931">
+          <caret line="1404" column="30" selection-start-line="1404" selection-start-column="30" selection-end-line="1404" selection-end-column="30" />
+          <folding>
+            <element signature="e#45931#45932#0" expanded="true" />
+            <element signature="e#45980#45981#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/bootcamp/mesurement/MeasurementType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1220,10 +1138,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/tw/chemicalFactory/ProcessStage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tw/chemicalFactory/ChemicalFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/tw/chemicalFactory/ChemicalFactoryTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+          <caret line="136" column="54" selection-start-line="136" selection-start-column="47" selection-end-line="136" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1232,22 +1168,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tw/chemicalFactory/ChemicalProcessStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tw/chemicalFactory/ChemicalFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5456389">
-          <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.19354838">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
